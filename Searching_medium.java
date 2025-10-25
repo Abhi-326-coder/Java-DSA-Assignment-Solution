@@ -207,7 +207,4 @@ public class Searching_medium {
         return steps;
     }
 
-
-
-
 }
