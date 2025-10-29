@@ -222,7 +222,7 @@ public class Searching_medium {
         return left + 1;
     }
 
-    private long test(int n, int index, int a) {
+    public long test(int n, int index, int a) {
         int b = Math.max(a - index, 0);
         long res = (long)(a + b) * (a - b + 1) / 2;
         b = Math.max(a - ((n - 1) - index), 0);
